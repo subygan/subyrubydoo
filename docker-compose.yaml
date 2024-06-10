@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+  subyrubydoo:
+    image: devforth/tobedo
+    build:
+        context: src
+        dockerfile: Dockerfile
+    env_file:
+      - .env
+    volumes:
+      - ./src:/code

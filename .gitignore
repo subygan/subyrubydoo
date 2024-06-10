@@ -1,0 +1,4 @@
+src/db/rubysubydoo.sqlite3
+*.env
+.idea
+*.txt
