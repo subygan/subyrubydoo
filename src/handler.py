@@ -10,7 +10,7 @@ import os
 import sqlite3
 import asyncio
 
-DB_NAME = './db/subyrubydoo.sqlite3'
+DB_NAME = 'db/subyrubydoo.sqlite3'
 
 CHECK_CHAR = '✅'
 UNCHECK_CHAR = '⬜'

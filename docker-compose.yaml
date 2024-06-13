@@ -2,7 +2,7 @@ version: '3.3'
 
 services:
   subyrubydoo:
-    image: devforth/tobedo
+    image: subyrubydoo
     build:
         context: src
         dockerfile: Dockerfile

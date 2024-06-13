@@ -6,3 +6,8 @@ to run create a `.env` file at root from `.env.sample` and add your telegram bot
 
 then run `docker compose up --remove-orphans --force-recreate --build`
 
+Deploying in flyio
+from the src dir
+```bash
+flyctl deploy
+```
