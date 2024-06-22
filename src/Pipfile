@@ -5,8 +5,10 @@ name = "pypi"
 
 [packages]
 python-telegram-bot = "==13.12"
+requests = "==2.32.3"
+icecream = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.8"
+python_version = "3.9"
